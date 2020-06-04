@@ -2,25 +2,41 @@
 <html lang="pt-br">
 <head>
     <style>
+      body {
+  background-color: rgb(104, 103, 102);
+           }
+
         div.center{
             text-align: center;
         }
         div.bg {
           background-color: black;
           color: white;
-          width: 75%;
+          border-radius: 20px;
+          width: 79%;
           margin: 20px;
           padding: 20px;
+          float: right;
         }
         body {
   font-family: Arial, Helvetica, sans-serif;
 }
+      div.left{
+        background-color: rgb(77, 63, 63);
+          color: white;
+          border-radius: 20px;
+          width: 12%;
+          height: 655px;
+          margin: 20px;
+          padding: 20px;
+      }
 
 .flip-card {
   background-color: transparent;
   width: 15%;
   height: 300px;
   perspective: 1000px;
+  float: left;
 }
 
 .flip-card-inner {
@@ -63,7 +79,7 @@
 <body>
     <div class = "center">
         <h1>Guilherme Mendes da Cunha</h1>
-        <p>Um pouco sobre mim...</p>
+        <p>Desenvolvedor de sistema</p>
     </div>
     <hr>
     <div class="flip-card">
@@ -73,26 +89,43 @@
           </div>
           <div class="flip-card-back">
             <h1>Guilherme</h1> 
-            <p>Estudante</p>
-            <p>04/08/2003</p> 
+            <p>Estudante</p> 
+            <p>04/08/2003</p>
             <p>Determinado</p>
           </div>
         </div>
       </div>
       <div class="bg">
-        <h2>London</h2>
+        <h2>Objetivos</h2>
         <p>London is the capital of England.</p>
         </div> 
         
         <div class="bg">
-        <h2>Paris</h2>
+        <h2>SoftSkills</h2>
         <p>Paris is the capital of France.</p>
         </div>
         
         <div class="bg">
-        <h2>Tokyo</h2>
+        <h2>HardSkills</h2>
         <p>Tokyo is the capital of Japan.</p>
         </div>
+
+        <div class="bg">
+          <h2>Projetos</h2>
+          <p>London is the capital of England.</p>
+          </div> 
+          <div class="left">
+            <h2>Projetos</h2>
+            <p>London is the capital of England.</p>
+            </div> 
+
+            <hr>
+
+          <footer>
+            <div>
+              <p>Informações de contato adicionais</p>
+            </div>
+          </footer>
 
 </body>
 </html>
