@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <style>
+      body {
+  background-color: rgb(104, 103, 102);
+           }
+
+        div.center{
+            text-align: center;
+        }
+        div.bg {
+          background-color: rgb(19, 18, 18);
+          color: white;
+          border-radius: 20px;
+          width: 79%;
+          margin: 20px;
+          padding: 20px;
+          float: right;
+        }
+        body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+      div.left{
+        background-color: rgb(77, 63, 63);
+          color: white;
+          border-radius: 20px;
+          width: 12%;
+          height: 665px;
+          margin-left: 20px;
+          padding: 20px;
+      }
+
+.flip-card {
+  background-color: transparent;
+  width: 15%;
+  height: 300px;
+  perspective: 1000px;
+  float: left;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo</title>
+</head>
+<body>
+    <div class = "center">
+        <h1>Guilherme Mendes da Cunha</h1>
+        <p>Desenvolvedor de sistema</p>
+    </div>
+    <hr>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="Guilherme.png" alt="Avatar" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>Guilherme</h1> 
+            <p>Estudante</p> 
+            <p>04/08/2003</p>
+            <p>Determinado</p>
+          </div>
+        </div>
+      </div>
+      <div class="bg">
+        <h2>Objetivos</h2>
+        <p>Estágio em WebDesign.</p>
+        </div> 
+        
+        <div class="bg">
+        <h2>SoftSkills</h2>
+        <p>Sou um estudante de HTML5 e estou em busca de aprimorar e colocar em prática as minhas habilidades. Tenho um olhar abstrato, consigo trabalhar com as tarefas propostas de uma maneira creativa.</p>
+        </div>
+        
+        <div class="bg">
+        <h2>HardSkills</h2>
+        <p>HTML5; CSS3; C#; Redes.</p>
+        </div>
+
+        <div class="bg">
+          <h2>Projetos</h2>
+          <p>Curriculo, cardapio e sites em geral.</p>
+          </div> 
+          <div class="left">
+            <h2>Informações adicionais</h2>
+            <p>London is the capital of England.</p>
+            </div> 
+
+            <hr style="width:100%;text-align:left;margin-left:0"></hrstyle>
+
+          <footer>
+            <div class="center">
+              <p>Informações de contato adicionais</p>
+            </div>
+          </footer>
+
+</body>
+</html>
